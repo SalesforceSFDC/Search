@@ -21,3 +21,5 @@
       * Retrieve multiple objects and fields efficiently, and the objects might or might not be related to one another.
       * Retrieve data for a particular division in an organization using the divisions feature, and you want to find it in the                      most efficient way possible.
 ```
+
+*  Salesforce Federated Search allows you to make the global search box an external search engine. When Federated Search is set up, we transfer the user’s query to the external engine, which searches the external sources. The results are returned right in the Salesforce search results. We do this through the Salesforce Federated Search connector. The connector is built using the OpenSearch specification, so you can plug in any search engine that conforms to this industry standard.
