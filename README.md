@@ -5,8 +5,10 @@
 *  When users enter a term in the search field (1), the search engine breaks up the search term into tokens (2). It matches those tokens to the record information stored in the search index (3), ranks the associated records by relevance (4), and returns the results that users have access to (5).
 
 *  SOQL query is the equivalent of a SELECT SQL statement and searches the org database. 
+*  Query (REST) and query() (SOAP)—Executes a SOQL query against the specified object and returns data that matches the specified criteria.
 
 *  SOSL is a programmatic way of performing a text-based search against the search index.
+*  Search (REST) and search() (SOAP)—Executes a SOSL text string search against your org’s data.
 
 
 *  Use SOQL when you know in which objects or fields the data resides and you want to:
