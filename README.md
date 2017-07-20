@@ -9,3 +9,8 @@
 *  SOSL is a programmatic way of performing a text-based search against the search index.
 
 
+*  Use SOQL when you know in which objects or fields the data resides and you want to:
+      * Retrieve data from a single object or from multiple objects that are related to one another.
+      * Count the number of records that meet specified criteria.
+      * Sort results as part of the query.
+      * Retrieve data from number, date, or checkbox fields.
