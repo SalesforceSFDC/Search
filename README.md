@@ -4,9 +4,13 @@
 
 *  When users enter a term in the search field (1), the search engine breaks up the search term into tokens (2). It matches those tokens to the record information stored in the search index (3), ranks the associated records by relevance (4), and returns the results that users have access to (5).
 
+
+## SOQL
 *  SOQL query is the equivalent of a SELECT SQL statement and searches the org database. 
 *  Query (REST) and query() (SOAP)—Executes a SOQL query against the specified object and returns data that matches the specified criteria.
 
+
+## SOSL
 *  SOSL is a programmatic way of performing a text-based search against the search index.
 *  Search (REST) and search() (SOAP)—Executes a SOSL text string search against your org’s data.
 
@@ -24,4 +28,5 @@
       * Retrieve data for a particular division in an organization using the divisions feature, and you want to find it in the                      most efficient way possible.
 ```
 
+## Federated Search
 *  Salesforce Federated Search allows you to make the global search box an external search engine. When Federated Search is set up, we transfer the user’s query to the external engine, which searches the external sources. The results are returned right in the Salesforce search results. We do this through the Salesforce Federated Search connector. The connector is built using the OpenSearch specification, so you can plug in any search engine that conforms to this industry standard.
