@@ -30,3 +30,7 @@
 
 ## Federated Search
 *  Salesforce Federated Search allows you to make the global search box an external search engine. When Federated Search is set up, we transfer the user’s query to the external engine, which searches the external sources. The results are returned right in the Salesforce search results. We do this through the Salesforce Federated Search connector. The connector is built using the OpenSearch specification, so you can plug in any search engine that conforms to this industry standard.
+
+## Parameterized Search in REST
+Instead of a search string in the URL, you use parameters (hence the name) in the URL.
+
